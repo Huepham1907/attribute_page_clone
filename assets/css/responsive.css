@@ -1,0 +1,30 @@
+/* Responsive */
+
+/* Mobile and Tablet  (width < 1024px)*/
+@media only screen and (max-width: 63.9375em) {
+  .main {
+    width: 100%;
+  }
+}
+
+/* Tablet width >= 740px and width < 1024px */
+@media screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+  .nav p h1 {
+    width: 85%;
+  }
+  .img_head {
+    width: 85%;
+    padding-top: 85%;
+  }
+  .timeline {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+
+/*  Mobile width >= 740pc */
+@media screen and (max-width: 46.1875em) {
+  .img_head {
+    width: 95%;
+  }
+}
